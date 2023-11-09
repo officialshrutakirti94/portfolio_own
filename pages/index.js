@@ -24,12 +24,18 @@ export default function Home() {
     <div className={styles.heroImg}><img src='hero3.svg'></img></div>
     <div className={styles.heroSlogan}>
       <h1>I'm a Full stack developer.| </h1>
-      <p>Currently, I'm the CTO and co-founder at <span>defipe.io</span></p>
+      <p>Currently, I'm the CTO and co-founder at <span><a >defipe.io</a></span></p>
     </div>
     <div className={styles.bio}>
       <p>I am a self-taught proficient full stack developer,<br/>with expertise in both front-end and back-end technologies<br/>
       I love to innovate new things by my coding skills</p>
 </div>
+<div className={styles.stack}>
+  <h1>Currently I am using this tech stack</h1>
+</div>
+<div className={styles.stackImg}>
+  <img src='stack2.svg'></img>
+  </div>
     </>
   )
 }

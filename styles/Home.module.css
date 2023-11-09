@@ -73,6 +73,34 @@ line-height: normal;
 letter-spacing: 0.42px;
 }
 
+.stack{
+  color: #FFF;
+font-family: Preahvihear;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.42px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.stackImg{
+  width: 100%;
+  height: 5rem;
+  display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.stackImg img{
+  width: 50rem;
+height: 80rem;
+  
+}
+
 .bio{
   display: flex;
 align-items: center;
