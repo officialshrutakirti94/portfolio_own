@@ -73,6 +73,11 @@ line-height: normal;
 letter-spacing: 0.42px;
 }
 
+.heroSlogan a{
+  color: inherit; /* This will inherit the color from the parent element */
+      text-decoration: none; /* This removes the default underline */
+}
+
 .stack{
   color: #FFF;
 font-family: Preahvihear;
@@ -96,7 +101,7 @@ justify-content: center;
 
 }
 .stackImg img{
-  width: 50rem;
+  width: 40rem;
 height: 80rem;
   
 }
@@ -116,4 +121,81 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.44px;
+}
+
+.contact{
+  padding: 10px 13rem;
+}
+
+.contact h2{
+  color: #FFF;
+font-family: Preahvihear;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.5px;
+}
+
+.contact h5{
+  color: #FFF;
+font-family: Preahvihear;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.5px;
+}
+
+.contact p{
+  color: #FFF;
+font-family: Preahvihear;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.3px;
+}
+
+
+.tradebutton{
+  display: flex;
+width: 180px;
+height: 55px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 49px;
+background: #7127BA;
+
+color: #fff;
+
+font-family: Preahvihear;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 218.75% */
+letter-spacing: -0.5px;
+}
+
+.tradebutton a{
+  color: inherit; /* This will inherit the color from the parent element */
+      text-decoration: none; /* This removes the default underline */
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .heroImg{
+  
+    width: 70rem;
+    height: 40rem;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 }

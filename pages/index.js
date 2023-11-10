@@ -24,7 +24,7 @@ export default function Home() {
     <div className={styles.heroImg}><img src='hero3.svg'></img></div>
     <div className={styles.heroSlogan}>
       <h1>I'm a Full stack developer.| </h1>
-      <p>Currently, I'm the CTO and co-founder at <span><a >defipe.io</a></span></p>
+      <p>Currently, I'm the CTO and co-founder at <span><a href='https://defipe.io/'>defipe.io</a></span></p>
     </div>
     <div className={styles.bio}>
       <p>I am a self-taught proficient full stack developer,<br/>with expertise in both front-end and back-end technologies<br/>
@@ -35,6 +35,15 @@ export default function Home() {
 </div>
 <div className={styles.stackImg}>
   <img src='stack2.svg'></img>
+  </div>
+  <div className={styles.contact}>
+    <h2>contact</h2>
+    <h5>Let's Build Something Amazing Together!</h5>
+    <p>I'm a passionate full-stack developer ready to tackle your next project. Whether it's a web application, API development, or database management, I've got you covered</p>
+    <p>Feel Free to contact me !</p>
+
+    <div className={styles.tradebutton}><a href='mailto:chakrabortyshrutakirti@gmail.com'>Contact Me</a></div>
+
   </div>
     </>
   )
